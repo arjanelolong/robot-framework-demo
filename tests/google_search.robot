@@ -6,7 +6,10 @@ Test Teardown     Close All Browsers
 *** variables ***
 
 ${URL}     https://google.com
-${BROWSER}    chrome
+# chrome for local
+# ${BROWSER}    chrome
+#headlesschrome for CI
+${BROWSER}  headlesschrome 
 # ${USERNAME}    user
 # ${PASSWORD}    password
 
